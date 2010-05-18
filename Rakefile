@@ -128,6 +128,7 @@ gemspec = Gem::Specification.new do |s|
   s.rdoc_options = ['--line-numbers', "--main", "README.rdoc"]
 
   s.add_runtime_dependency("activesupport")
+  s.add_runtime_dependency("builder")
   s.add_development_dependency("activerecord")
   s.add_development_dependency("actionpack")
   s.add_development_dependency("jferris-mocha")
